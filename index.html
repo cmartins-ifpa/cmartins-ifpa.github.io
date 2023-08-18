@@ -37,7 +37,8 @@
 
   <script>
     function myFunction() {
-      document.getElementById("lblHello").innerHTML = "Hello World, " + $("#txtNome").val().trim();;
+      document.getElementById("lblHello").innerHTML =
+        "Hello World, " + $("#txtNome").val().trim().toUpperCase();
     }
   </script>
 
